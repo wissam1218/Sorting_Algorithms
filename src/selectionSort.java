@@ -22,12 +22,11 @@ public class selectionSort {
 		System.out.println();
 	}
 
-	// Driver code to test above
 	public static void main(String args[]) {
-		selectionSort ob = new selectionSort();
+		selectionSort ss = new selectionSort();
 		int arr[] = {10,9,8,7,6,5,4,3,2,1};
-		ob.sort(arr);
+		ss.sort(arr);
 		System.out.println("Sorted array");
-		ob.printArray(arr);
+		ss.printArray(arr);
 	}
 }
